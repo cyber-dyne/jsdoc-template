@@ -38,6 +38,7 @@ var usesSearch = Boolean(templates.search);
 </head>
 
 <body>
+  <!--
   <svg style="display: none;">
     <defs>
       <symbol id="linkIcon" fill="#706d77" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
@@ -53,6 +54,7 @@ var usesSearch = Boolean(templates.search);
   </label>
 
   <label for="nav-trigger" class="overlay"></label>
+  -->
 
   <div class="top-nav-wrapper">
     <ul>
@@ -90,9 +92,11 @@ var usesSearch = Boolean(templates.search);
   </div>
 
   <nav>
-    <h3 class="reference-title">
-      <?js= templates.referenceTitle || 'Braintree SDK Client Reference' ?>
-    </h3>
+    <a href="index.html">
+        <h3 class="reference-title">
+          <?js= templates.referenceTitle || 'Reference Manual' ?>
+        </h3>
+    </a>
 
     <?js= this.nav ?>
   </nav>
@@ -131,6 +135,6 @@ var usesSearch = Boolean(templates.search);
     });
   </script>
   <?js } ?>
-  
+
 </body>
 </html>

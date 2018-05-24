@@ -3,23 +3,25 @@
   var self = this;
 ?>
 
-<h4 class="name" id="<?js= id ?>">
-  <?js= data.attribs + name + (data.signature ? data.signature : '') ?>
-</h4>
+<span class='name-container'>
+    <h4 class="name" id="<?js= id ?>">
+      <?js= data.attribs + name + (data.signature ? data.signature : '') ?>
+    </h4>
 
-<?js if (data.summary) { ?>
-  <p class="summary">
-    <?js= summary ?>
-  </p>
-<?js } ?>
+    <?js if (data.summary) { ?>
+      <p class="summary">
+        <?js= summary ?>
+      </p>
+    <?js } ?>
 
-<?js if (data.description) { ?>
-  <div class="description">
-    <?js= data.description ?>
-  </div>
-<?js } ?>
+    <?js if (data.description) { ?>
+      <div class="description">
+        <?js= data.description ?>
+      </div>
+    <?js } ?>
 
-<?js= this.partial('details.tmpl', data) ?>
+    <?js= this.partial('details.tmpl', data) ?>
+</span>
 
 <?js if (data.fires && fires.length) { ?>
   <h5>Fires:</h5>

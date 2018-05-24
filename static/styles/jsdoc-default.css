@@ -1,55 +1,4 @@
-@font-face {
-    font-family: "Avenir Next W01";
-    font-style: normal;
-    font-weight: 600;
-    src: url("https://fast.fonts.net/dv2/14/14c73713-e4df-4dba-933b-057feeac8dd1.woff2?d44f19a684109620e484167ba790e8180fd9e29df91d80ce3d096f014db863074e1ea706cf5ed4e1c042492e76df291ce1d24ec684d3d9da9684f55406b9f22bce02f0f30f556681593dafea074d7bd44e28a680d083ccfd44ed4f8a3087a20c56147c11f917ed1dbd85c4a18cf38da25e6ac78f008f472262304d50e7e0cb7541ef1642c676db6e4bde4924846f5daf486fbde9335e98f6a20f6664bc4525253d1d4fca42cf1c490483c8daf0237f6a0fd292563417ad80ca3e69321417747bdc6f0969f34b2a0401b5e2b9a4dfd5b06d9710850900c66b34870aef&projectId=f750d5c7-baa2-4767-afd7-45484f47fe17") format('woff2');
-}
-
-@font-face {
-    font-family: "Avenir Next W01";
-    font-style: normal;
-    font-weight: 500;
-    src: url("https://fast.fonts.net/dv2/14/627fbb5a-3bae-4cd9-b617-2f923e29d55e.woff2?d44f19a684109620e484167ba790e8180fd9e29df91d80ce3d096f014db863074e1ea706cf5ed4e1c042492e76df291ce1d24ec684d3d9da9684f55406b9f22bce02f0f30f556681593dafea074d7bd44e28a680d083ccfd44ed4f8a3087a20c56147c11f917ed1dbd85c4a18cf38da25e6ac78f008f472262304d50e7e0cb7541ef1642c676db6e4bde4924846f5daf486fbde9335e98f6a20f6664bc4525253d1d4fca42cf1c490483c8daf0237f6a0fd292563417ad80ca3e69321417747bdc6f0969f34b2a0401b5e2b9a4dfd5b06d9710850900c66b34870aef&projectId=f750d5c7-baa2-4767-afd7-45484f47fe17") format('woff2');
-}
-
-@font-face {
-    font-family: "Avenir Next W01";
-    font-style: normal;
-    font-weight: 400;
-    src: url("https://fast.fonts.net/dv2/14/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2?d44f19a684109620e484167ba790e8180fd9e29df91d80ce3d096f014db863074e1ea706cf5ed4e1c042492e76df291ce1d24ec684d3d9da9684f55406b9f22bce02f0f30f556681593dafea074d7bd44e28a680d083ccfd44ed4f8a3087a20c56147c11f917ed1dbd85c4a18cf38da25e6ac78f008f472262304d50e7e0cb7541ef1642c676db6e4bde4924846f5daf486fbde9335e98f6a20f6664bc4525253d1d4fca42cf1c490483c8daf0237f6a0fd292563417ad80ca3e69321417747bdc6f0969f34b2a0401b5e2b9a4dfd5b06d9710850900c66b34870aef&projectId=f750d5c7-baa2-4767-afd7-45484f47fe17") format('woff2');
-}
-
-@font-face {
-    font-family: 'bt_mono';
-    font-style: normal;
-    font-weight: 400;
-    src: url('https://assets.braintreegateway.com/fonts/bt_mono_regular-webfont.eot');
-    src: url('https://assets.braintreegateway.com/fonts/bt_mono_regular-webfont.woff2') format('woff2'), url('https://assets.braintreegateway.com/fonts/bt_mono_regular-webfont.woff') format('woff'), url('https://assets.braintreegateway.com/fonts/bt_mono_regular-webfont.ttf') format('truetype'), url('https://assets.braintreegateway.com/fonts/bt_mono_regular-webfont.svg#bt_mono_reqular-webfont') format('svg');
-}
-
-@font-face {
-    font-family: 'bt_mono';
-    font-style: normal;
-    font-weight: 500;
-    src: url('https://assets.braintreegateway.com/fonts/bt_mono_medium-webfont.eot');
-    src: url('https://assets.braintreegateway.com/fonts/bt_mono_medium-webfont.woff2') format('woff2'), url('https://assets.braintreegateway.com/fonts/bt_mono_medium-webfont.woff') format('woff'), url('https://assets.braintreegateway.com/fonts/bt_mono_medium-webfont.ttf') format('truetype'), url('https://assets.braintreegateway.com/fonts/bt_mono_medium-webfont.svg#bt_mono_medium-webfont') format('svg');
-}
-
-@font-face {
-    font-family: 'bt_mono';
-    font-style: normal;
-    font-weight: 600;
-    src: url('https://assets.braintreegateway.com/fonts/bt_mono_bold-webfont.eot');
-    src: url('https://assets.braintreegateway.com/fonts/bt_mono_bold-webfont.woff2') format('woff2'), url('https://assets.braintreegateway.com/fonts/bt_mono_bold-webfont.woff') format('woff'), url('https://assets.braintreegateway.com/fonts/bt_mono_bold-webfont.ttf') format('truetype'), url('https://assets.braintreegateway.com/fonts/bt_mono_bold-webfont.svg#bt_mono_bold-webfont') format('svg');
-}
-
-@font-face {
-    font-family: 'bt_mono';
-    font-style: normal;
-    font-weight: 900;
-    src: url('https://assets.braintreegateway.com/fonts/bt_mono_heavy-webfont.eot');
-    src: url('https://assets.braintreegateway.com/fonts/bt_mono_heavy-webfont.woff2') format('woff2'), url('https://assets.braintreegateway.com/fonts/bt_mono_heavy-webfont.woff') format('woff'), url('https://assets.braintreegateway.com/fonts/bt_mono_heavy-webfont.ttf') format('truetype'), url('https://assets.braintreegateway.com/fonts/bt_mono_heavy-webfont.svg#bt_mono_heavy-webfont') format('svg');
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 
 * {
     box-sizing: border-box
@@ -69,7 +18,7 @@ body {
     color: #3e3c42;
     background-color: #f3f3f3;
     width: 100%;
-    font: 16px/1.875 "Avenir Next W01", "Avenir Next", "Helvetica Neue", Helvetica, sans-serif;
+    font: 16px/1.875 'Avenir Next', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 16px;
     line-height: 160%;
 }
@@ -113,9 +62,7 @@ h1 span {
 }
 
 h1.page-title {
-    border-bottom: 1px dashed #ccc;
     margin-bottom: 20px;
-    padding-bottom: 30px;
 }
 
 h2 {
@@ -144,8 +91,6 @@ h3.reference-title small {
 }
 
 h3.subsection-title {
-    border-bottom: 1px solid #ececec;
-    padding-bottom: 20px;
     margin-top: 3em;
     margin-bottom: 1em;
 }
@@ -160,6 +105,7 @@ h4.name {
     font-size: 20px;
     margin-top: 0;
     font-weight: 500;
+    color: #333;
 }
 
 h5 {
@@ -192,6 +138,7 @@ tt, code, kbd, samp {
     background: #f4f4f4;
     padding: 1px 5px;
     border-radius: 5px;
+    font-style: initial;
 }
 
 .class-description {
@@ -309,15 +256,15 @@ nav ul {
     padding-left: 0;
 }
 
-nav ul a {
+nav a {
     font-size: 16px;
 }
 
-nav ul a, nav ul a:active {
+nav a, nav a:active {
     display: block;
 }
 
-nav ul a:hover, nav ul a:active {
+nav a:hover, nav a:active {
     color: hsl(200, 100%, 43%);
     text-decoration: none;
 }
@@ -434,23 +381,24 @@ footer {
 }
 
 .details {
-    margin-top: 14px;
-    font-size: 13px;
+    margin: 0;
     text-align: right;
-    background: #ffffff;
+    flex-grow: 1;
+    font-size: 13px;
+    off-background: #ffffff;
     /* Old browsers */
-    background: -moz-linear-gradient(left, #ffffff 0%, #fafafa 100%);
+    off-background: -moz-linear-gradient(left, #ffffff 0%, #fafafa 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #ffffff 0%, #fafafa 100%);
+    off-background: -webkit-linear-gradient(left, #ffffff 0%, #fafafa 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #ffffff 0%, #fafafa 100%);
+    off-background: linear-gradient(to right, #ffffff 0%, #fafafa 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fafafa', GradientType=1);
-    padding-right: 5px;
+    off-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fafafa', GradientType=1);
 }
 
 .details dt {
     display: inline-block;
+    margin-left: 1em;
 }
 
 .details dd {
@@ -469,10 +417,13 @@ footer {
 }
 
 .details ul {
-    list-style-type: none
+    list-style-type: none;
 }
 
-.details li {}
+.details li {
+    list-style-type: none;
+    margin-left: 8px;
+}
 
 .details pre.prettyprint {
     margin: 0
@@ -485,6 +436,7 @@ footer {
 .description {
     margin-bottom: 1em;
     margin-top: 1em;
+    color: #666;
 }
 
 .code-caption {
@@ -496,7 +448,7 @@ footer {
 
 .prettyprint {
     font-size: 13px;
-    border: 1px solid #ddd;
+    border: 1px solid #f9f9f9;
     border-radius: 3px;
     overflow: auto;
     background-color: #fbfbfb;
@@ -563,38 +515,36 @@ footer {
 
 .params, .props {
     border-spacing: 0;
-    border: 1px solid #ddd;
     border-radius: 3px;
     width: 100%;
     font-size: 14px;
 }
 
 .params .name, .props .name, .name code {
-    color: #4D4E53;
-    font-family: 'bt_mono', monospace;
-    font-size: 100%;
 }
 
 .params td, .params th, .props td, .props th {
     margin: 0px;
     text-align: left;
     vertical-align: top;
-    padding: 10px;
+    padding: 4px;
     display: table-cell;
+    color: #706d77;
+}
+
+.params th {
+    font-weight: 600;
 }
 
 .params td {
-    border-top: 1px solid #eee;
 }
 
 .params thead tr, .props thead tr {
     background-color: #fff;
-    font-weight: bold;
 }
 
 .params .params thead tr, .props .props thead tr {
     background-color: #fff;
-    font-weight: bold;
 }
 
 .params td.description>p:first-child, .props td.description>p:first-child {
@@ -788,8 +738,6 @@ table {
 }
 
 table tbody td {
-    border-top: 1px solid hsl(207, 10%, 86%);
-    border-right: 1px solid #eee;
     padding: 5px;
     /*word-wrap: break-word;*/
 }
@@ -953,5 +901,5 @@ input.search-input:focus {
 
 .name-container {
   display: flex;
-  padding-top: 1em;
+  margin-top: 3em;
 }
